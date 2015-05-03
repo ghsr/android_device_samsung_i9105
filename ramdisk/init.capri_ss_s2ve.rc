@@ -35,6 +35,7 @@ on init
     mkdir /storage/emulated 0555 root root
 
     export EXTERNAL_STORAGE /storage/emulated/legacy
+    export SECONDARY_STORAGE /storage/sdcard1:/storage/usbdisk
     export EMULATED_STORAGE_SOURCE /mnt/shell/emulated
     export EMULATED_STORAGE_TARGET /storage/emulated
 
@@ -45,7 +46,6 @@ on init
     symlink /mnt/shell/emulated/0 /storage/emulated/legacy
 
     # Secondary storage
-    export SECONDARY_STORAGE /storage/sdcard1
     mkdir /storage/sdcard1 0700 root root
     mkdir /mnt/media_rw/sdcard1 0700 media_rw media_rw
 
