@@ -3,7 +3,7 @@
         "remote": "github",
         "repository": "ghsr/android_device_samsung_galaxys2plus-common",
         "target_path": "device/samsung/galaxys2plus-common",
-        "revision": "rr-lollipop5.1"
+        "revision": "aicp-5.1"
     },
     {
         "remote": "github",
