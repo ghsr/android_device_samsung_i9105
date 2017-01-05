@@ -1,0 +1,8 @@
+[
+  {
+    "remote": "github",
+    "repository": "ghsr/android_device_samsung_galaxys2plus-common",
+    "target_path": "device/samsung/galaxys2plus-common",
+    "revision": "cm-14.1"
+  }
+]
